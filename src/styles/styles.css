@@ -1,0 +1,18 @@
+:root {
+    --fonte-principal: 'Montserrat';
+    
+    --branco: hsl(0, 0%, 100%);
+    --preto: black;
+    
+    --cor-principal: #203D92;
+    --cor-secundaria: #4368D6;
+    --cor-terciaria: #6D89DF;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+/* .container__geral {
+    min-height: calc(100vh - 100px);
+} */
