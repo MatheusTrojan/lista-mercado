@@ -7,7 +7,7 @@
     max-width: 20rem;
     padding: 1.125rem;
     box-sizing: border-box;
-    color: var(--cor-contraste-claro);
+    color: var(--cor-principal);
     font-size: var(--fonte-tamanho-botao);
     align-self: center;
     text-align: center;
