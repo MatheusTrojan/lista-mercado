@@ -1,9 +1,16 @@
 {
   "profile": [
     {
-      "nome": "felipe",
-      "email": "felipe@alura.com",
+      "produto": "alfafa",
+      "quantidade": "3",
+      "unidade": "un",
       "id": 1
+    },
+    {
+      "produto": "manteiga",
+      "quantidade": "500",
+      "unidade": "g",
+      "id": 2
     }
   ]
 }
