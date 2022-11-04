@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Novo Produto</title>
+
+		<link rel="stylesheet" href="../styles/reset.css">
+		<link rel="stylesheet" href="../styles/styles.css">
+	</head>
+
+	<body>
+		<div class="container__geral">
+
+			<header class="cabecalho container">
+				<img src="../images/logotipo-mercado.png" alt="Logotipo do mercado" class="cabecalho__logo">
+				<nav>
+					<ul class="cabecalho__lista-navegacao">
+						<li class="cabecalho__link"><a href="./index.html">Minha Lista</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<main class="clientes-container">
+                <section class="cartao cadastro">
+                    <h1 class="cartao__titulo">Cadastre Novo Produto</h1>
+                    <form class="flex flex--coluna" data-form>
+                        <div class="input-container">
+                            <input name="produto" id="produto" class="input" type="text" placeholder="Nome do Produto" required data-produto>
+                            <label class="input-label" for="produto">Nome do Produto</label>
+                            <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                        </div>
+                        <div class="input-container">
+                            <input name="quantidade" id="quantidade" class="input" type="text" placeholder="Quantidade" required data-quantidade>
+                            <label class="input-label" for="quantidade">Quantidade</label>
+                            <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                        </div>
+                        <div class="input-container">
+                            <input name="unidade" unidade" class="input" type="text" placeholder="Unidade" required data-unidade>
+                            <label class="input-label" for="unidade">Unidade</label>
+                            <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                        </div>
+                        <button type="submit"class="botao">
+                        Cadastrar
+                    </button>
+                    </form>
+                </section>
+			</main>
+
+		</div>
+
+	</body>
+</html>
