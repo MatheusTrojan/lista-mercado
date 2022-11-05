@@ -4,8 +4,8 @@ const criaNovaLinha = (produto, quantidade, unidade, id) => {
     const linhaNovoProduto = document.createElement("tr");
     const conteudoNovaLinha = `
         <td class="td" data-td>${produto}</td>
-        <td>${quantidade}</td>
-        <td>${unidade}</td>
+        <td class="td">${quantidade}</td>
+        <td class="td_unidade">${unidade}</td>
         <td>
             <ul class="tabela__botoes-controle">
                 <li><a href="../pages/edita_produto.html?id=${id}" class="botao-simples botao-simples--editar">Editar</a></li>
