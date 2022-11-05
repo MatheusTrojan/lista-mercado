@@ -1,10 +1,19 @@
 @import url("./cartao.css");
 @import url("./inputs.css");
 
+.clientes-container{
+    width: 100vw;
+}
+
 .cadastro {
+    background-color: var(--cor-contraste-claro);
+    border-radius: 10px;
+    box-shadow: var(--sombra);
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
+    justify-content: center;
+    margin: 1rem 0;
 }
 
 
