@@ -14,12 +14,11 @@
     --branco: hsl(0, 0%, 100%);
     --preto: black;
     
-    --cor-principal: #203D92;
-    --cor-secundaria: #4368D6;
-    --cor-terciaria: #6D89DF;
+    --cor-principal: #EE9C2E;
+    --cor-secundaria: #A8B16B;
+    --cor-terciaria: #4E6424;
 
     --cor-contraste-escuro: #4D4D4D;
-    --cor-contraste-claro: #fff;
     --cor-aviso: #df2525;
     --cor-sucesso: #047900;
     --cor-transparencia: #4d4d4d33;

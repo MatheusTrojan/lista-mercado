@@ -19,3 +19,11 @@
 .cabecalho__link {
     margin-left: 2rem;
 }
+
+.cabecalho__link--texto {
+    background-color: var(--cor-secundaria);
+    border-radius: 8px;
+    color: var(--branco);
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+}
