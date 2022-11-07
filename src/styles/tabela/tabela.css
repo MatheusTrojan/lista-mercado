@@ -1,5 +1,10 @@
 @import url("./botoes.css");
 
+.clientes__container {
+    display: flex;
+    justify-content: center;
+}
+
 .tabela {
     margin-top: 2.25rem;
     background-color: var(--cor-contraste-claro);
@@ -41,4 +46,20 @@
 
 .td_unidade {
     text-align: left;
+}
+
+@media screen and (min-width : 500px) {
+    .tabela {
+        width: 80%;
+    }
+
+    .td_unidade {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width : 1000px) {
+    .tabela {
+        width: 60%;
+    }
 }

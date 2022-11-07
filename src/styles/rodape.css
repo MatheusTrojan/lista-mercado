@@ -1,0 +1,33 @@
+.rodape__container {
+    align-items: center;
+    background: var(--cor-principal);
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-content: center;
+    height: 100px;
+}
+
+.rodape {
+    align-items: center;
+    display: flex;
+    grid-column: 1/11;
+    justify-content: center;
+    margin: .25rem;
+}
+
+.rodape__texto {
+    font-family: var(--fonte-principal);
+    font-size: 1.1rem;
+}
+
+.rodape__imagem {
+    margin-left: 0.75rem;
+    width: 1.75rem;
+}
+
+@media screen and (min-width:940px) {
+    .rodape__imagem {
+        margin-left: 1rem;
+        width: 2rem;
+    }
+}

@@ -1,6 +1,7 @@
 @import url("./cabecalho.css");
 @import url("./tabela/tabela.css");
 @import url("./cadastro/cadastro.css");
+@import url("./rodape.css");
 
 :root {
     --fonte-principal: 'Montserrat';

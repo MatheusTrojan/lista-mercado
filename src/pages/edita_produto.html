@@ -15,6 +15,7 @@
 
 			<header class="cabecalho container">
 				<img src="../images/logotipo-mercado.png" alt="Logotipo do mercado" class="cabecalho__logo">
+                <h2 class="cabecalho__titulo">LISTA DE COMPRAS</h2>
 				<nav>
 					<ul class="cabecalho__lista-navegacao">
 						<li class="cabecalho__link"><a class="cabecalho__link--texto" href="./index.html">Minha Lista</a></li>
@@ -22,10 +23,10 @@
 				</nav>
 			</header>
 
-			<main class="clientes-container">
+			<main class="cadastro__container">
                 <section class="cadastro">
                     <h1 class="cartao__titulo">Edite o Produto</h1>
-                    <form class="flex flex--coluna" data-form>
+                    <form class="formulario" data-form>
                         <div class="input-container">
                             <input name="produto" id="produto" class="input" type="text" placeholder="Nome do Produto" required data-produto>
                             <label class="input-label" for="produto">Nome do Produto</label>
@@ -45,8 +46,19 @@
                     </form>
                 </section>
 			</main>
-
 		</div>
+
+        <footer class="rodape__container">
+			<div class="rodape">
+				<p class="rodape__texto">Código de Matheus Trojan</p>
+				<a href="https://github.com/MatheusTrojan" class="rodape__imagem">
+					<img src="../images/github.svg" alt="Acesse meu Github">
+				</a>
+				<a href="https://www.linkedin.com/in/matheus-trojan/" class="rodape__imagem">
+					<img src="../images/linkedin.svg" alt="Acesse meu LinkedIn">
+				</a>
+			</div>
+		</footer>
 
         <script type="module" src="../script/controller/atualizaProdutos-controller.js"></script>
 	</body>

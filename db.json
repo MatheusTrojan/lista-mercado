@@ -1,20 +1,8 @@
 {
   "profile": [
     {
-      "produto": "alfafa",
-      "quantidade": "3",
-      "unidade": "un",
-      "id": 1
-    },
-    {
-      "produto": "alface",
-      "quantidade": "3",
-      "unidade": "un",
-      "id": 2
-    },
-    {
-      "produto": "carne",
-      "quantidade": "750",
+      "produto": "Carne moída",
+      "quantidade": "500",
       "unidade": "g",
       "id": 3
     }

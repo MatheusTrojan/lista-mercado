@@ -1,10 +1,6 @@
 .formulario {
-    margin-top: 2rem;
-}
-
-.formulario__legenda {
-    font-size: var(--fonte-tamanho-formulario-fieldset);
-    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .input-container {

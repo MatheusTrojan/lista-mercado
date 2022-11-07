@@ -14,6 +14,5 @@ formulario.addEventListener("submit", async (evento) => {
     }
     catch(erro){
         console.log(erro)
-        // window.location.href = "../telas/erro.html"
     }
 })

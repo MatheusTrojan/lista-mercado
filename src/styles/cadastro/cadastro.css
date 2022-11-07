@@ -1,8 +1,9 @@
 @import url("./cartao.css");
 @import url("./inputs.css");
 
-.clientes-container{
-    width: 100vw;
+.cadastro__container {
+    display: flex;
+    justify-content: center;
 }
 
 .cadastro {
@@ -14,6 +15,8 @@
     flex-direction: column;
     justify-content: center;
     margin: 1rem 0;
+    padding: 1rem;
+    width: 80%;
 }
 
 

@@ -1,8 +1,7 @@
 .botao {
-    display: block;
     background-color: var(--cor-primaria);
     border-radius: 7px;
-    width: 100%;
+    width: 50%;
     margin-top: 1rem;
     max-width: 20rem;
     padding: 1.125rem;
@@ -11,6 +10,7 @@
     font-size: var(--fonte-tamanho-botao);
     align-self: center;
     text-align: center;
+    transition: 0.3s ease-in-out;
 }
 
 .botao-simples {
@@ -25,12 +25,42 @@
     font-weight: 400;
     padding: 0.35rem 0.75rem;
     text-decoration: none;
+    transition: 0.3s ease-in-out;
 }
 
 .botao-simples--excluir {
     color: var(--cor-aviso);
+    cursor: pointer;
 }
 
 .botao-simples--editar {
     color: var(--cor-sucesso);
+    text-decoration: none;
+}
+
+.botao:hover {
+    background: var(--cor-terciaria);
+    scale: 1.1;
+}
+
+.botao-simples--adicionar:hover {
+    background: var(--cor-terciaria);
+    scale: 1.1;
+}
+
+@media screen and (min-width : 500px) {
+    .botao-simples--adicionar {
+        justify-self: right
+    }
+
+    th .botao-simples {
+        position: absolute;
+        right: 11%;
+    }
+}
+
+@media screen and (min-width : 1000px) {
+    th .botao-simples {
+        right: 21%;
+    }
 }

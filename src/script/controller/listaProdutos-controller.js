@@ -26,7 +26,7 @@ tabela.addEventListener("click", async(evento) => {
     let botaoDeletar = evento.target.className == "botao-simples botao-simples--excluir"
     if(botaoDeletar) {
         try {
-            const linhaProduto = evento.target.closest("[data-id]") //método closest para encontrar o elemento do DOM mais próximo ao que queremos remover
+            const linhaProduto = evento.target.closest("[data-id]")
             let id = linhaProduto.dataset.id
             
             await produtoService.removeProduto(id)
@@ -35,7 +35,6 @@ tabela.addEventListener("click", async(evento) => {
         }
         catch(erro){
             console.log(erro)
-            // window.location.href = "../telas/erro.html"
         }
 
     }
